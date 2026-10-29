@@ -14,3 +14,6 @@ The radio is a **continuous locally generated broadcast**, not a globally synchr
 
 ## Editing
 Add a valid `morse` string to the corresponding item in `tracks.json` and set `status` to `ready`. Separate Morse letters with spaces and words with `/`. Playback ignores song melody and uses configurable tone movement.
+
+## Favicon update
+This release adds `favicon.svg`, `favicon-32.png`, `apple-touch-icon.png`, and `favicon-192.png`. Keep the icons beside `index.html` when uploading to GitHub Pages. Browser tab icons may require a hard refresh because browsers cache favicons.
